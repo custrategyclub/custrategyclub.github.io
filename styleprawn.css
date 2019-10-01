@@ -1,0 +1,154 @@
+/* Global */
+
+@font-face {
+    font-family: 'treasure_map_deadhandregular';
+    src: url('treamd-webfont.woff2') format('woff2'),
+         url('treamd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+  font-family: 'treasure_map_deadhandregular';
+  background-image: url("./underwater.jpg"),
+    linear-gradient(rgb(15, 129, 192), rgba(0, 9, 40));
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+
+/* Table of Contents*/
+#toc {
+	position: sticky;
+	background-color: #F2F2F2;
+	line-height: 1;
+	top: 0;
+	margin: 0;
+    padding: 0;
+    border: 0;
+	
+	width: 100%;
+}
+#toc-contents {
+    padding-left: 15px;
+    padding-right: 15px;
+	padding-top: 5px;
+	overflow: auto;
+}
+#logo-div {
+	width: 80px;
+	height: 5%;
+	display: inline-block;
+	float: left;
+}
+#header-logo {
+	width: 100%;
+	height: 100%;
+}
+#external-links {
+	width: 30px;
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+}
+.external-logo {
+	width: 100%;
+	display: block;
+}
+#toc-links {
+	display: inline;
+	list-style-type: none;
+	float: none;
+	text-align: left;
+}
+#toc-links li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style-type: none;
+	display: inline-block;
+}
+#toc-links a {
+    padding: 15px 30px 15px 0;
+    position: relative;
+    color: #031740;
+    display: inline-block;
+    font-size: 18px;
+    font-size: 2rem;
+    letter-spacing: .02em;
+    white-space: nowrap;
+    text-decoration: none;
+	float: left;
+}
+#toc-links a:hover {
+    color: #0F8DBF;
+}
+#song-div {
+	float: right;
+	display: inherit;
+}
+#song-audio {
+}
+
+/* Contents */
+#contents {
+	text-align: center;
+	height: inherit;
+	width: inherit;
+	padding: 5px;
+}
+.text {
+	font-size: 3rem;
+	font-style: bold;
+	color: #F2F2F2;
+	font-weight: 400;
+	margin: 15px;
+}
+#shrimp {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+	background-image: url("./shrimp.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 60%;
+}
+#text-contents-container {
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: left;
+	background-color: #031740;
+	opacity: 0.9;
+}
+#paypal-link {
+	width: 10%;
+}
+#text-contents {
+	padding: 2%;
+	color: #F2F2F2;
+	font-family: Arial;
+	margin-left: 5%;
+	margin-right: 5%;
+	opacity: 1;
+}
+
+
+
+

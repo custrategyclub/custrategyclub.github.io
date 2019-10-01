@@ -1,0 +1,58 @@
+
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+  background-image: url("./bg.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 1%;
+}
+
+#cusc-logo {
+	background-image: url("./cusc-logo.png");
+	background-position-x: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 60%;
+}
+
+#links {
+	width: 100%;
+	height: 40%;
+	text-align: center;
+}
+
+#links div {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	height: 100%;
+	width: 10%;
+}
+#facebook {
+	background-image: url("./facebook.png");
+}
+#discord {
+	background-image: url("./discord.png");
+}
+#email {
+	background-image: url("./email.png");
+}
+
+
+
